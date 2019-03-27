@@ -1,0 +1,67 @@
+.logo {
+    width: 40%;
+    height: 60%;
+    float: left;
+}
+
+.line {
+    height: 0.2em;
+    color: #7d97ad;
+    background-color: #7d97ad;
+    clear: left;
+}
+
+.name, .job {
+    float: right;
+}
+
+.name {
+    font-size: 1em;
+}
+
+.job {
+    font-size: 0.8em;
+}
+
+.featured {
+    font-size: 1em;
+    color: #02b3e4;
+}
+
+.image {
+    max-height: 200px;
+    margin-bottom: 1em;
+}
+
+.caption, figure {
+    display: inline;
+}
+
+.link {
+    text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+    .name {
+        font-size: 35px;
+    }
+    .job {
+        font-size: 25px;
+    }
+
+    .featured {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .name {
+        font-size: 4em;
+    }
+    .job {
+        font-size: 3em;
+    }
+    .featured {
+        font-size: 3em;
+    }
+}
